@@ -4,12 +4,12 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     'AUTHOR' => 'Jean-Christophe Kermagoret <jck@BabelObjects.Org>',
     'NAME'	=> 'BabelObjects',
-    'VERSION_FROM' => 'BabelObjects/Runner/Dispatcher.pm',
+    'VERSION_FROM' => 'VERSION',
     'dist' => { 'COMPRESS' => 'gzip -9f',
                 'SUFFIX' => 'gz'
               },
-    'PREREQ_PM' => { XML::DOM => 0,
-		     CGI::Fast => 0,
-                     URI::Bookmarks => 0
+    'PREREQ_PM' => { XML::DOM => 0
+#		     CGI::Fast => 0,
+#                     URI::Bookmarks => 0
                    }
 );

@@ -12,6 +12,7 @@ MANIFEST
 Makefile.PL
 README
 TODO
+VERSION
 conf/bo.xml
 conf/classes.xml
 lib/Controller.cgi
